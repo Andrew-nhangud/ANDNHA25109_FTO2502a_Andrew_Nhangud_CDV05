@@ -16,6 +16,90 @@
     --primaryText-color: #9ca3af;
     --secondaryText-color: #4b5563;
 }
+/* globally styles */
+body{
+    background-color: var(--background-color);
+    font-family: "Playfair";
+}
+header{
+    background-color: var(--secondary-color);
+    border-bottom: 4px solid var(--primary-color);
+    height: 355px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--primary-color);
+}
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--primaryText-color);
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: var(--secondaryText-color);
+    background-color: var(--secondary-color);
+}
+input:focus, textarea:focus {
+    border-color: var(--third-color);
+    outline: none;
+}
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+button:hover {
+    background-color: var(--third-color);
+}
+.container{
+    max-width: 348px;
+    margin: auto;
+}
+.red-sign{
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.heading-styles{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 39px;
+    padding-bottom: 15px;
+}
+.text-styles{
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--secondaryText-color); 
+}
+.border-line{
+    border-bottom: 2px solid var(--primary-color);
+}
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 /* header styles */
 .time-section{
