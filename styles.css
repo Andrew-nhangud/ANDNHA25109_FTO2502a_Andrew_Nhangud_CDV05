@@ -372,3 +372,33 @@ button:hover {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+@media (min-width: 768px){
+.container{
+    max-width: 736px;
+    margin: auto;
+}
+.heading-line{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 70px;
+}
+.headline{
+    gap: 20px;
+    margin-bottom: 16px;
+}
+.nav-links{
+    padding: 7px;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.nav-links li{
+    list-style: none;
+    font-size: 19px;
+    font-weight: 800;
+}
+}
+
