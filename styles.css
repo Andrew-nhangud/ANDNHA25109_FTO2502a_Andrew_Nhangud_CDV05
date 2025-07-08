@@ -498,7 +498,7 @@ header{
     font-weight: 500;
     color: var(--secondaryText-color); 
 }
-/*  */
+/* heor section */
 .hero-section{
     height: 500px;
 }
@@ -521,7 +521,7 @@ header{
     height: 495px;
 
 }
-/*  */
+/* about me section */
 .about-me-section{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -537,7 +537,7 @@ header{
     height: 440px;
 }
 
-/*  */
+/* skills section */
 .skills-section{
     margin-top: 150px;
 }
@@ -546,7 +546,7 @@ header{
     grid-template-columns: repeat(3, 1fr);
 }
 
-/*  */
+/* project section */
 .project-section{
     margin-top: 200px;
 }
@@ -564,12 +564,12 @@ header{
 }
 
 
-/*  */
+/* contact section */
 .contact-section{
     margin-top: 150px;
 }
 
-/*  */
+/* form section */
 .form-wrapper {
     background: var(--secondary-color);
     border: 1px solid var(--primary-color);
