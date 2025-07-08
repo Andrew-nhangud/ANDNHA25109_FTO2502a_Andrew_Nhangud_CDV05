@@ -75,3 +75,28 @@
 .hero-message{
     line-height: 29px;
 }
+
+/* about me styles */
+.about-me-section{
+    margin-top: 100px;
+}
+.about-me-alert{
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+.about-me-message{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
