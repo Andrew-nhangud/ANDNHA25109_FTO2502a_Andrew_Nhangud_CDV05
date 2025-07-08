@@ -58,3 +58,20 @@
 .nav-links a:hover{
     color: var(--third-color);
 }
+
+/* hero section styles */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-section img{
+    height: 400px;
+    object-fit: cover;
+}
+.hero-heading{
+    margin-top: 75px;
+}
+.hero-message{
+    line-height: 29px;
+}
