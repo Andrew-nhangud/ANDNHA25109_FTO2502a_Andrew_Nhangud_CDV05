@@ -16,3 +16,45 @@
     --primaryText-color: #9ca3af;
     --secondaryText-color: #4b5563;
 }
+
+/* header styles */
+.time-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    margin-bottom: 22px;
+}
+.time-section p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+.heading-line{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 45px;
+}
+.nav-links{
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 10px;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-links a:hover{
+    color: var(--third-color);
+}
